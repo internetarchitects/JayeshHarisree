@@ -1,0 +1,32 @@
+{
+"capabilities": {
+"hipchatApiConsumer": {
+"scopes": [
+"send_notification",
+"admin_room"
+]
+},
+"installable": {
+"allowRoom": true,
+"allowGlobal": false,
+"callbackUrl": "https://hearsay.hipch.at/addon/installable"
+},
+"webhook": [],
+"configurable": {
+"url": "https://hearsay.hipch.at/configure",
+"allowAccessToRoomAdmins": false
+}
+},
+"key": "ac-koa-hipchat-hearsay",
+"name": "BOT DISHA",
+"description": "Listens to HipChat rooms for configurable text patterns and responds with canned responses",
+"version": "0.1.4",
+"vendor": {
+"name": "Atlassian Labs",
+"url": "http://atlassian.com"
+},
+"links": {
+"self": "https://hearsay.hipch.at/addon/capabilities",
+"homepage": "https://hearsay.hipch.at/"
+}
+}
